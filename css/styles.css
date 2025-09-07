@@ -75,16 +75,18 @@ img {
 .header .container {
   display: flex;
   width: 1158px;
-  padding: 24px 0;
+ padding: 0 15px;
+ margin: 0 auto;
+  
 }
 
 .header-menu-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
   
 }
 
-.header-menu-item { padding: 24px 0;}
 
 
 .header-navigation {
@@ -241,6 +243,8 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-member-function {
@@ -250,6 +254,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  text-align: center;
 }
 
 .team-image {
